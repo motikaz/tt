@@ -24,7 +24,7 @@ public class CheckBoxes {
         }
 
         @Test // тест #1 - finding the 1st checkbox and understanding if it's checked
-        public void method1() {
+        public void method1() throws Exception {
 
             boolean checkBox = driver.findElement(By.xpath("//*[@id='checkboxes']/input[1]")).isSelected();
             if (checkBox)
