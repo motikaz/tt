@@ -7,7 +7,7 @@ public class BrokenImage {
 
     public static WebDriver driver;
 
-    @BeforeClass // перед выполнением всех тестов//анотация к методу
+    @BeforeClass // перед выполнением всех тестов - аннотация к методу
     public static void beforeClassMethod()  {
 //        System.setProperty("webdriver.chrome.driver", "C:\\Users\\VAD\\IdeaProjects\\testselenium\\drivers\\chromedriver.exe");
 //        driver = new ChromeDriver();
@@ -94,7 +94,7 @@ public class BrokenImage {
         }
     }
 
-    @AfterClass // после выполнения всех тестов//анотация к методу
+    @AfterClass // после выполнения всех тестов - аннотация к методу
     public static void tearDown() {
         driver.quit();
     }
