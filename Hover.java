@@ -70,6 +70,7 @@ public class Hover {
         String pageurl = driver.getCurrentUrl();
         Assert.assertEquals(pageurl, "http://the-internet.herokuapp.com/users/2");
     }
+    
     @Test // main test - hover over img3
     public void method4() {
 
